@@ -1,0 +1,102 @@
+package aulas;
+
+import java.util.Scanner;
+
+public class Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 Scanner sc = new Scanner(System.in);
+				 
+		/*		 
+		int[] numero = new int [5];
+		
+		int [] numero2= {1,25,10}; // inicia o array
+		
+		System.out.println(numero2[1]);
+		System.out.println(numero.length);
+		
+		System.out.println(" entre com quandidade ");
+		int qtd = sc.nextInt();
+		
+		int [] passadoTeclado = new int[qtd];
+		
+		System.out.println(" Quantidade de posições: " + passadoTeclado.length);
+		*/
+		 /*
+		 int[] numeros = {1, 10 , 25, 9, 50};
+		 
+		 for(int numero : numeros) {
+			 System.out.println(numero);
+		 }
+		 */
+		 /*
+		 System.out.println("Entre com a quantidade de nomes");
+		 int qtd = sc.nextInt();
+		 
+		 String[] nomes = new String[qtd];
+		 sc.nextLine();
+		 
+		 
+		 for( int i = 0; 1 < nomes.length; i++) {
+			 sc.nextLine();
+			 System.out.print("Entre com nome");
+			 nomes[i]= sc.nextLine();
+		 }
+				 
+		 
+		 
+		 
+		 for(String nome : nomes) {
+			 System.out.println(nome);
+		 }
+*/
+		//Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
+		 
+		/* 
+		double[] nota = new double[4];
+		double md = 0.0;
+		
+		for(int i = 0; i < nota.length;i++) {
+			System.out.printf("Entre com a nota: ");
+			nota[i] = sc.nextDouble();
+		}
+		
+		md = (nota[0] + nota[1] + nota[2] + nota[3])/ nota.length;
+		
+		
+		System.out.printf(" A sua media final é : %.2f  " , md);
+		
+		*/
+		
+		int[] idade = new int[5];
+		double[] altura = new double[5];
+				
+		for (int i = 0 < idade.length; i++) {
+			System.out.print("Entre com idade: ");
+			idade[i]=sc.nextDouble();
+			
+			System.out.print("Entre com altura: ");
+			altura[i]=sc.nextDouble();
+			
+			
+			
+			
+		}
+		
+		
+		
+		
+		
+				
+		
+		
+		 
+		 
+		 
+			 
+		sc.close();
+	}
+
+}

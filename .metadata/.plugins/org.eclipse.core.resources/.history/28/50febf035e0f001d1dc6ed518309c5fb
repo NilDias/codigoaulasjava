@@ -1,0 +1,93 @@
+package aulas;
+
+import java.util.Scanner;
+
+public class Array {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		 Scanner sc = new Scanner(System.in);
+				 
+		/*		 
+		int[] numero = new int [5];
+		
+		int [] numero2= {1,25,10}; // inicia o array
+		
+		System.out.println(numero2[1]);
+		System.out.println(numero.length);
+		
+		System.out.println(" entre com quandidade ");
+		int qtd = sc.nextInt();
+		
+		int [] passadoTeclado = new int[qtd];
+		
+		System.out.println(" Quantidade de posições: " + passadoTeclado.length);
+		*/
+		 /*
+		 int[] numeros = {1, 10 , 25, 9, 50};
+		 
+		 for(int numero : numeros) {
+			 System.out.println(numero);
+		 }
+		 */
+		 /*
+		 System.out.println("Entre com a quantidade de nomes");
+		 int qtd = sc.nextInt();
+		 
+		 String[] nomes = new String[qtd];
+		 sc.nextLine();
+		 
+		 
+		 for( int i = 0; 1 < nomes.length; i++) {
+			 sc.nextLine();
+			 System.out.print("Entre com nome");
+			 nomes[i]= sc.nextLine();
+		 }
+				 
+		 
+		 
+		 
+		 for(String nome : nomes) {
+			 System.out.println(nome);
+		 }
+*/
+			 
+		double n1 = 0;
+		double n2 = 0;
+		double n3 = 0;
+		double n4 = 0;
+		double md = 0;
+		
+		System.out.print("Entre com a n1: ");
+		n1 = sc.nextDouble ();
+		
+		System.out.print("Entre com a n2: ");
+		n2 = sc.nextDouble();
+		
+		System.out.print("Entre com  a n3: ");
+		n3 = sc.nextDouble();
+		
+		System.out.print("Entre com a n4: ");
+	    n4 = sc.nextDouble();
+		
+		md = ( n1 + n2 + n3 + n4)/4;
+		
+		System.out.print(" A sua media final é : %d ", md);
+		
+		
+		
+		
+		
+		
+				
+		
+		
+		 
+		 
+		 
+			 
+		sc.close();
+	}
+
+}

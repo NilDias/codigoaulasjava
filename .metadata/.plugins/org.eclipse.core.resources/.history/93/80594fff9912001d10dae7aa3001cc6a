@@ -1,0 +1,29 @@
+package aulas;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Uber {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+		
+		double vlrcom = 0.0;
+		double kmrodado = 0.0;
+		double lucro = 0.0;
+		double litros =0.0;
+		
+		
+		System.out.print(" Entre com a Kilometragem rodada: ");
+		kmrodado = sc.nextDouble();
+		
+		
+		System.out.print(" Entre com a vlrcom rodada: ");
+		vlrcom = sc.nextDouble();
+		
+		
+		
+		sc.close();
+	}
+
+}

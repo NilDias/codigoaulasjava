@@ -1,0 +1,46 @@
+package aulas;
+
+import java.util.Locale;
+import java.util.Scanner;
+
+public class Uber {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in).useLocale(Locale.US);
+		
+		double vlrcom = 0.0;
+		double kmrodado = 0.0;
+		double lucro = 0.0;
+		double litros =0.0;
+		double vlruber = 0.0;
+		double mdkm = 0.0;
+		double combgasto = 0.0;
+		
+		System.out.print(" Entre com a Kilometragem rodada: ");
+		kmrodado = sc.nextDouble();
+		
+		System.out.print(" Entre com a valor por litro do combustivel usado: R$  ");
+		vlrcom = sc.nextDouble();
+		
+		System.out.println(" Entre com e média de km do carro por litro");
+		mdkm = sc.nextDouble();
+		
+		litros = ( kmrodado / mdkm);
+		
+		System.out.printf(" Vc gastou : %.2f   litros "    , litros);
+		
+		combgasto = ( litros * vlrcom);
+		
+		System.out.printf(" Seu em reais com o combustivel foi: %.2f" , combgasto);
+		
+		
+		System.out.println( " Entre com o valor pago pela Uber no dia: ");
+		vlruber = sc.nextDouble();
+		
+		
+		
+		
+		sc.close();
+	}
+
+}
